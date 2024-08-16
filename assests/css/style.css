@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.principal{
+    display: flex;
+}
+
+.contactos{
+    width: 22%;
+}
+
+.card{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-left: 1px solid #E8EBE4;
+    border-right: 1px solid #E8EBE4;
+    border-bottom: 1px solid #E8EBE4;
+
+}
+
+.card img{
+    width: auto;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.nombre{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+}
+
+.nombre img{
+    margin-left: 15px;
+}
+
+.iconos{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    color: gray;
+}
+
+.iconos .icono1{
+    margin-left: 50px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+}
+
+.texto h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.texto p{
+    font-size: 14px;
+    color: gray;
+}
+
+.nuevochat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A491D2;
+    border: 1px solid #e1e5dc;
+}
+
+.nuevochat button{
+    margin: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 18%;
+    padding-right: 18%;
+    background-color: #A491D2;
+    color: #FFF;
+    border: none;
+    font-size: 18px;
+}
+
+.personas{
+    border: 1px solid #e1e5dc;
+}
+
+.personas-card{
+    padding: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.texto-personas{
+    margin: 4%;
+}
+
+.texto-personas h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.texto-personas p{
+    font-size: 16px;
+}
+
+.personas img{
+    width: auto;
+    border-radius: 50%;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.mensajes{
+    background-color: rgb(237, 240, 235);
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mensajes img{
+    width: 25%;
+    border-radius: 3%;
+    margin-bottom: 2%;
+}
+
+.mensajes h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.mensajes p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+}
+
+strong{
+    font-weight: bolder;
+}
